@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: publicandroid
+          ref: c9c61c7
 
       - name: Cache Clang toolchain
         id: cache-clang
